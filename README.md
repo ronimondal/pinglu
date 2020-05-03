@@ -1,4 +1,4 @@
-# Pinglu
+# CubeTalk
 Open source web application to send/receive anonymous feedback like (Sarahah/Sayat) built using Laravel PHP Framework.. Resposive on all devices, Simple and wonderfull design
 
 #### Features
@@ -30,7 +30,7 @@ Requirements :
 * Composer
 * PHP 5.6+
 
-So after downloading the project, Copy it into your localhost folder `path/to/www/pinglu` and then open your composer in the same directory.
+So after downloading the project, Copy it into your localhost folder `path/to/www/cubetalk` and then open your composer in the same directory.
 Now, Run the following commands :
 <br><br>
 Install all required and used packages in the project using composer :
@@ -68,7 +68,7 @@ You can find a lot of tutorails about how to deploy a laravel project on shared 
 After installing the application you need to edit `AuthenticatesUsers.php` file, to make login with `username` instead of `email` .
 #### How to do that?!
 It's very simple, open your editor and edit `AuthenticatesUsers.php` file in this path :
-`path/to/pinglu/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesUsers.php`
+`path/to/cubetalk/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesUsers.php`
 and then search for `username()` function :
 ``` php
 public function username()
@@ -118,14 +118,14 @@ The `.env` file not contains only these above lines of configurations! no, but t
 The Mail configuration, its important for sending [reset user password/activate emails], you need to set the email, username and password to allow the application sending emails under your email that you set.
 
 ## About the author
-This simple project built by [Roni Mondal](https://github.com/ronimondal)
+This simple project built by [Munaf Aqeel Mahdi](https://github.com/munafio)
 
 #### Contact me
-[Instagram](https://instagram.com/) <br>
-[Facebook personal page](https://facebook.com/) <br>
-[Twitter](https://twitter.com/) <br>
+[Instagram](https://instagram.com/munafio) <br>
+[Facebook personal page](https://facebook.com/munafio) <br>
+[Twitter](https://twitter.com/munaf_aqeel_m) <br>
 
-or on email [roni@boitoi.in]
+or on email [munafaqeelmahdi@gmail.com]
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
